@@ -1,0 +1,137 @@
+{
+    "[go]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },    
+    // "go.useLanguageServer": true,
+    // "go.alternateTools": {
+    //   "go-langserver": "gopls", 
+    // },
+    // "go.languageServerExperimentalFeatures": {
+    //   "format": true,
+    //   "autoComplete": true
+    // },
+    "go.delveConfig": {},
+    "editor.snippetSuggestions": "top",
+    "editor.minimap.enabled": false, // removes minimap
+    "editor.renderWhitespace": "none", // removes whitespace chars
+    "editor.renderIndentGuides": true, // removes indent guides
+    "editor.renderLineHighlight": "none", // removes line highlight
+    "editor.overviewRulerBorder": false, // removes border from overview ruler (located on the right, same position as the scrollbar)
+    "editor.hideCursorInOverviewRuler": true, // hides cursor mark in the overview ruler
+    "editor.folding": false, // removes the folding feature
+    "editor.occurrencesHighlight": false, // removes highlights occurrences (still works when you select a word)
+    "editor.matchBrackets": true, // removes the highlight of matching brackets (I use Subtle Match Brackets extension for this)
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden", // removes the space used mainly for debugging indicators
+    "explorer.openEditors.visible": 0, // removes the open editors section at the top of the sidebar, you can see the opened files with ⌘ + ⌥ + Tab
+    "workbench.activityBar.visible": false, // removes the activity bar (the 4 icons at the left of the screen), so now you will have to open the explorer, git, debugger and extension with shortcuts or through the Command Palette
+    "workbench.editor.showIcons": false, // removes icon from opened files in tabs
+    "workbench.editor.tabCloseButton": "off", // removes cross icon from tabs
+    "workbench.statusBar.visible": true, // removes the status bar
+    "indenticator.color.dark": "rgba(255,255,255,.1)",
+    "workbench.colorCustomizations": { // object that allows you to customize your color theme: https://code.visualstudio.com/docs/getstarted/theme-color-reference 
+        
+        "tab.activeBorder": "#0000" // removes border to highlight active tabs (the colors formats are: #RGB, #RGBA, #RRGGBB or #RRGGBBAA)
+    },
+
+    "editor.fontFamily": "'Hasklig', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "keyboard.dispatch": "keyCode",
+    "window.zoomLevel": 0,
+    "go.formatTool": "goimports",
+    "emmet.excludeLanguages": [],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "markdown": "html"
+    },
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "javascript.preferences.importModuleSpecifier": "relative",
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "terminal.integrated.scrollback": 20000,
+    "editor.wordWrap": "on",
+    "yaml.format.enable": true,
+    "search.useGlobalIgnoreFiles": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/vendor/**": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/vendor/**": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/vendor/**": true
+    },
+    "go.installDependenciesWhenBuilding": true,
+    "go.testFlags": [
+        "-v",
+        "-failfast",
+    ],
+    "go.testTimeout": "120s",
+    "javascript.implicitProjectConfig.checkJs": false,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "typescript.preferences.quoteStyle": "single",
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "prettier.tslintIntegration": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "typescript.tsc.autoDetect": "build",
+    "go.testEnvFile": "",
+    "go.testEnvVars": {
+        "API_CONFIG_FILE": "/home/peter/qm_go/code/qm/svc/api/test.yaml",
+        "CONFIG_FILE": "/home/peter/qm_go/code/src/qm/common/config/app.yaml",
+        "CATEGORY_FILE": "/home/peter/qm_go/code/src/qm/common/config/app.yaml",
+        "DB_HOST": "127.0.0.1",
+        "REDIS_HOST": "127.0.0.1",
+        "TEST_BQ_PROJECT_ID": "brave-drive-105719",
+        "TEST_BQ_CREDENTIAL_PATH": "/home/peter/qm_js/config/credentials.json",
+        "VAULT_SKIP_VERIFY": true,
+        "GOOGLE_APPLICATION_CREDENTIALS": "~/.config/google/pubsub-account.json",
+        "TEAMS_MIGRATION_DIR": "/home/peter/qm_go/code/qm/svc/api/db"
+    },
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.quickSuggestionsDelay": 20,
+    "editor.parameterHints.enabled": false,
+    "window.menuBarVisibility": "hidden",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontWeightBold": "normal",
+    "zenMode.restore": true,
+    "editor.glyphMargin": false,
+    "editor.fontSize": 15,
+    "gitlens.blame.heatmap.enabled": false,
+    "go.gotoSymbol.includeImports": true,
+    "go.autocompleteUnimportedPackages": true,
+    "prettier.tabWidth": 4,
+    "zenMode.fullScreen": false,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.rendererType": "dom",
+    "gitlens.mode.active": "zen",
+    "editor.autoIndent": false,
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "rust.mode": "legacy",
+    "rust.actionOnSave": "check",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.lineNumbers": "off",
+    "explorer.compactFolders": false
+}
